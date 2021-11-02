@@ -80,7 +80,7 @@ function idetificarclase(a){
     }
     else if(a==5){
         let divP=document.getElementById("modal1")
-        let Armando=new person("Luis Fernando Melchor Hernández","luisfernandomelchorhernandez@gmail.com", 22,
+        let Armando=new person("Luuis Fernando Melchor Hernández","luisfernandomelchorhernandez@gmail.com", 22,
         `Sociólogo con interés en la programación, a pesar de no contar con una carrera afin, mi determinación me ha permitido aprender las herramientas y habilidades necesarias para ser un desarrollador Java full Stack.
         `,
         "./imagenes/PérezElizondo.jpg")
