@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("../img/FondoContacto.jpeg");
+    background-image: url("../imagenes/FondoContacto.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -12,8 +12,12 @@ img {
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: beige;
+    color: green;
+    font-style: italic;
+    text-shadow: 2px 2px white;
+    font-style: oblique;
     padding-bottom: 10%;
+    padding-top: 5%;
 }
 .card {
     background-color: transparent;
@@ -23,7 +27,8 @@ h2{
     background-color: transparent;
 }
 .textonombres{
-    color:white
+    color:white;
+    text-shadow: 2px 2px blue;
 
 }
 #logoketzal{

@@ -49,7 +49,8 @@ function idetificarclase(a){
     if(a==1){
         let divP=document.getElementById("modal1")
         let Armando=new person("Jose Armando Roman Torres","jart2607@gmail.com", 22,
-        "Officia est cillum incididunt adipisicing consequat amet cupidatat fugiat est dolor ea aute proident.",
+      `Desarrollador Javafull Stack, licenciado en Tecnologia, colaboracion en un proyecto de Automatas 
+      celulares con Python, dominio  de HTML, CSS, Boostrap y Javascript  `,
         "./imagenes/PérezElizondo.jpg")
         Armando.printInfo(divP);
     }
