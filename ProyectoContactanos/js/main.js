@@ -6,7 +6,7 @@ form_1.addEventListener("submit", function(e){
     //posibles respuestas
     var posibleTexto=/^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
     var posibleNumero=/^[0-9]+$/;
-    var posibleCorreo=/^\w+@(\w+\.)+\w{2,4}$/; 
+    var posibleCorreo=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
     //importar entradas
     let input_nombre = document.getElementById("nombre").value;
     let input_correo = document.getElementById("correo").value;
@@ -14,7 +14,7 @@ form_1.addEventListener("submit", function(e){
     let input_asunto = document.getElementById("asunto").value;
     let input_mensaje = document.getElementById("mensaje").value;
     //validaciones nombre
-    if(input_nombre.length > 50){
+    if(input_nombre.length > 50||input_nombre.length<0){
         alert("Error, el nombre es muy largo");
     }
     if(!posibleTexto.exec(input_nombre.value)){
@@ -24,7 +24,7 @@ form_1.addEventListener("submit", function(e){
     if(input_correo.length>40||input_correo.length<10){
         alert("Error, el tamaño del correo no es correcto");
     }
-    if(input_correo.value.match(posibleCorreo)){
+    if(!posibleCorreo.exec(input_correo)){
         alert("El correo no tiene el formato esperado");
     }
     //validaciones teléfono
