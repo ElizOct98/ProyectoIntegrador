@@ -10,7 +10,22 @@ email.addEventListener("input",function(event){
 
 
 })
-console.log(email)
+
+
+
+function enviarcorreo(){
+
+    let condicion=document.getElementsByClassName("form-group info");
+    console.log(condicion[0].innerHTML )
+
+
+
+}
+
+    
+
+
+
 
 
 

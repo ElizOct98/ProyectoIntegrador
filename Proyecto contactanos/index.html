@@ -49,21 +49,21 @@
                                 </label>
                          </div>
                         
-                        <div class="form-group col-md-12">
-                            <label for="Asunto">
-                               <input type="text" name="asunto" class="form-group" placeholder="Asunto" required minlength="5" maxlength="30">
+                        <div class="form-group col-md-12" >
+                            <label for="Asunto" name="asuntoform">
+                               <input type="text" name="asuntoinput"   class="form-group info" placeholder="Asunto" required minlength="5" maxlength="30" id="asunto1">
                             </label>
                         </div>
                         <div class="form-group col-md-12">
                             <label for="Mensaje"> 
-                               <textarea name="Mensaje" id="" cols="30" rows="5" placeholder=" Ingresa un mensaje" required minlength="10" maxlength="200"></textarea>
+                               <textarea name="Mensaje" id="" cols="30" rows="5" class="info"  placeholder=" Ingresa un mensaje" required minlength="10" maxlength="200" onchange="enviarcorreo()"></textarea>
                             </label>
                         </div>
                         <div class="form-group col-md-12">
                         <label for="Botón de Enviar">
-                            <button type="submit"  href="mailto:someone@yoursite.com?subject=Mail from Our Site" name="Enviar" class="btn btn-primary" >Enviar</button>
+                            <button type="submit"  name="Enviar" class="btn btn-primary"  >Enviar</button>
                             <button type="reset"  name="Borrar" class="btn btn-warning">Borrar</button>/>
-                            <a href="mailto:jart2607@gmail.com?,&subject=Big%20News&body=">Email Us</a>
+                            <a >Email Us</a>
 
                         </label>
                         </div><!--div boton-->
@@ -73,6 +73,9 @@
         </div>
     </div><!--/Termina contenedor principal-->
 
+   <!--  <button onclick="mailto:`jart2607@gmail.com?,&subject==` ">
+        prueba
+    </button>d -->
 
 
     <script type="text/javascript" src="./js/main.js"></script>
