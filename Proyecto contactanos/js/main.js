@@ -10,6 +10,7 @@ email.addEventListener("input",function(event){
 
 
 })
+console.log(email)
 
 
 
