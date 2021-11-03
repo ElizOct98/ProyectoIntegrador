@@ -59,7 +59,7 @@ function idetificarclase(a){
         let Daisy=new person("Daisy Sarahí Matus Morales","daisymatus54@gmail.com ", 22,
         `Desarrolladora Java Full Stack.			
         Competente en el manejo de diversas plataformas digitales con intereses en desarrollo, cyber security y temas ambientales. Muestra habilidades sociales para el trabajo colaborativo e interés por participar activamente en la solución de problemáticas actuales. `,
-        "./imagenes/PérezElizondo.jpg")
+        "./imagenes/DaisySarahí.jpg")
         Daisy.printInfo(divP);
     }
     else if(a==3){
@@ -81,10 +81,10 @@ function idetificarclase(a){
     }
     else if(a==5){
         let divP=document.getElementById("modal1")
-        let Armando=new person("Luuis Fernando Melchor Hernández","luisfernandomelchorhernandez@gmail.com", 22,
+        let Armando=new person("Luis Fernando Melchor Hernández","luisfernandomelchorhernandez@gmail.com", 22,
         `Sociólogo con interés en la programación, a pesar de no contar con una carrera afin, mi determinación me ha permitido aprender las herramientas y habilidades necesarias para ser un desarrollador Java full Stack.
         `,
-        "./imagenes/PérezElizondo.jpg")
+        "./imagenes/LuisFernando.jpg")
         Armando.printInfo(divP);
     }
     else if(a==6){
@@ -111,7 +111,7 @@ function idetificarclase(a){
         `Ingeniero en geofísica, aficionado a la programación y a la naturaleza. Me encanta 
         conocer nuevos lugares. Busco desarrollarme profesionalmente en el desarrollo web y 
         también aplicar mis conocimientos en programación en la prospección sísmica.`
-        ,"./imagenes/PérezElizondo.jpg")
+        ,"./imagenes/MiguelAngel.jpg")
         miguel.printInfo(divP);
 
     }
