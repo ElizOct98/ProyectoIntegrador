@@ -31,32 +31,32 @@
             <div class="col-sm-6"><!--Columna 2-->
                 <div class="formulario">
                 <h3>Captura datos</h3>
-                <form method="POST"><!--Metodo enviar--> 
+                <form method="POST" id="form_1"><!--Metodo enviar--> 
                     <div class="form-group">
                         <div class="form-group col-md-12">
                           <label for="Nombre">
-                            <input type="text" name="nombre" class="form-group" placeholder="Nombre Completo" required minlength="3" maxlength="18">
+                            <input  id="nombre" type="text" name="nombre" class="form-group" onchange="validar1()" placeholder="Nombre Completo" required minlength="3" maxlength="18">
                           </label>
                         </div>
                         <div class="form-group col-md-12">
                             <label for="Correo Eléctronio">
-                              <input id="mail" type="mail" name="correo" class="form-group" placeholder="Correo electrónico"  required minlength="10" maxlength="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                              <input id="mail" type="mail" name="correo"  onchange="validar2()"class="form-group" placeholder="Correo electrónico"  required minlength="10" maxlength="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                             </label>
                         </div>
                          <div class="form-group col-md-12">
                                 <label for="Teléfono">
-                                  <input type="text" name="Teléfono" class="form-group" placeholder="Número de Teléfono" required minlength="8" maxlength="10">
+                                  <input  id="teléfono" type="text" onchange="validar3()" name="Teléfono" class="form-group" placeholder="Número de Teléfono" required minlength="8" maxlength="10">
                                 </label>
                          </div>
                         
                         <div class="form-group col-md-12" >
                             <label for="Asunto" name="asuntoform">
-                               <input type="text" name="asuntoinput"   class="form-group info" placeholder="Asunto" required minlength="5" maxlength="30" id="asunto1">
+                               <input type="text" name="asuntoinput"  onchange="validar4()"  class="form-group info" placeholder="Asunto" required minlength="5" maxlength="30" id="asunto1">
                             </label>
                         </div>
                         <div class="form-group col-md-12">
                             <label for="Mensaje"> 
-                                    <textarea id="texto"  cols="30" rows="5"  placeholder=" Ingresa un mensaje" required minlength="10" maxlength="200"> </textarea>
+                                    <textarea id="texto"  onchange="validar5()" cols="30" rows="5"  placeholder=" Ingresa un mensaje" required minlength="10" maxlength="200"> </textarea>
                             </label>
                         </div>
                         <div class="form-group col-md-12">
