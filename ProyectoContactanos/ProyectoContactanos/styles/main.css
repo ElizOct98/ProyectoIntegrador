@@ -1,0 +1,32 @@
+body{
+    
+    background-image: url(/imgenes/Fondo.jpeg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.container{
+    background-color: rgba(255, 0, 0, 0.363);
+    min-height: 100vh;
+    min-width: 212vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+.form-group{
+    border-radius: 10px;
+    min-width: 49vh;
+}
+.formulario{
+    margin-left: 100px ;
+}
+.imagen-logo{
+    margin-left: 100px ;
+}
+button{
+    margin-left:200px ;
+}
+
+
+
