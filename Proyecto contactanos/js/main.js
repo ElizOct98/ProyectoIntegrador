@@ -65,6 +65,7 @@ function validar4(){
         return true;
     }
 
+<<<<<<< HEAD
     
 }
 
@@ -83,6 +84,8 @@ function validar5(){
         alert("El asunto solo puede contener letras y espacios");
         return true;
     }
+=======
+>>>>>>> d64471d88fc2b5b2644dfa30b4d6dc441094fbd7
 }
 
 
