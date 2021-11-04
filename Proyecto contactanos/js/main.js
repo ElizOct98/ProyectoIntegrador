@@ -25,8 +25,6 @@ function enviarcorreo(){
     return texto1; 
 
 
-    
-
 }
 
 function enviarcorreo1(){
