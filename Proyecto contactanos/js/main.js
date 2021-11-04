@@ -11,18 +11,30 @@ email.addEventListener("input",function(event){
 
 })
 
+function crearlink(){
+    let anclacorreo=document.getElementById("correo");
+    anclacorreo.href =`mailto:jart2607@gmail.com?&subject=${enviarcorreo1()}&body=${enviarcorreo()}`;
+    
+
+    
+}
 
 
 function enviarcorreo(){
+    var texto1 =document.getElementById("texto").value
+    return texto1; 
 
-    let condicion=document.getElementsByClassName("form-group info");
-    console.log(condicion[0].innerHTML )
 
-
+    
 
 }
 
-    
+function enviarcorreo1(){
+    let asunto3 = document.getElementById("asunto1").value
+    return asunto3;
+
+}
+
 
 
 
